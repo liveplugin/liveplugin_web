@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="LivePlugin">
+
+  <meta name="google-signin-client_id"
+    content="519768176383-r8k9619i174t6bs1vv2ehsih9cdlm8ag.apps.googleusercontent.com">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="liveplugin_flutter">
+  <link rel="apple-touch-icon" href="https://live-plugin.b-cdn.net/icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="https://live-plugin.b-cdn.net/favicon.png" />
+
+  <title>liveplugin_flutter</title>
+  <link rel="manifest" href="https://live-plugin.b-cdn.net/manifest.json">
+
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+  <style>
+    .splash {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      /*z-index: 9999;*/
+      background: url('https://live-plugin.b-cdn.net/assets/assets/splash.png') 50% 50% no-repeat rgb(249, 249, 249);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="splash"></div>
+
+  <!--This script installs service_worker.js to provide PWA functionality to
+      application.For more information, see:
+      https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script src="js/service.worker.js"></script>
+
+  <script src="https://live-plugin.b-cdn.net/js/scripts.js" type="application/javascript"></script>
+  <!-- como funciona com o endereço direto da CDN (sem precisar configurar o CNAME para ficar https://cdn.belo.com.br/) então também vai funcionar com o link do jsdelivr! -->
+  <script src="https://live-plugin.b-cdn.net/main.dart.js" type="application/javascript"></script>
+
+</body>
+
+</html>
