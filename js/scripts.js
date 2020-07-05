@@ -48,6 +48,12 @@ function signInWithAppleWeb() {
     });
 }
 
+function decodeHTML(html) {
+    var txt = document.createElement('textarea');
+    txt.innerHTML = html;
+    return txt.value;
+};
+
 //Employ defensive code that will analyze how your website is loaded to confirm it is the top level window, and redirect the user if this is not the case.
 /*<style id="antiClickjack">
     body { display:none !important; }
