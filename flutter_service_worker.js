@@ -8,7 +8,7 @@ const RESOURCES = {
 "/": "0fe1fb64c09d96231808378fd445f407",
 "js/service.worker.js": "7a8d64bd6a1c565fa1c5741c2292619d",
 "js/scripts.js": "aa85d0b4c8c8fc2930ad256f68df5590",
-"main.dart.js": "306a34769842d5497ec3a59c772ab5bd",
+"main.dart.js": "514f2fe891e62c04272942857cb0e456",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
