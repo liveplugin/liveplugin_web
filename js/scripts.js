@@ -66,3 +66,16 @@ function decodeHTML(html) {
         top.location = self.location;
     }
 </script>*/
+
+var firebaseConfig = {
+    apiKey: 'AIzaSyBgffHJYQL21mPzJeYGjAiSqJweHbP4V1s',
+    authDomain: 'liveplugin-0.firebaseapp.com',
+    databaseURL: 'https://liveplugin-0.firebaseio.com',
+    projectId: 'liveplugin-0',
+    storageBucket: 'liveplugin-0.appspot.com',
+    messagingSenderId: '519768176383',
+    appId: '1:519768176383:web:8fc30cb1a82db53409beca',
+    measurementId: 'G-YVPTEY8QHT'
+};
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
